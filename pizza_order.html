@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Order Form</title>
+</head>
+<body>
+
+    <div>
+        <h1>PIZZA by the SLICE</h1>
+    </div>
+
+    <hr>
+   
+
+    <br><br>
+
+    <form action="#" method="post">
+
+         <div>
+        Enter your personal details or billing information.
+        </div>
+
+        <br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" minlength="5" maxlength="60" id="name" name="name" required>
+
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" inputmode="email" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{7,11}" required>
+
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" inputmode="numeric" min="13" max="99" required>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        
+    </form>
+</body>
+</html>
