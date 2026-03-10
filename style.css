@@ -149,8 +149,6 @@ table {
     margin-top: 10px;
     width: 100%;
     border: 1.5px solid #c0392b;
-    border-radius: 7px;
-    overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
